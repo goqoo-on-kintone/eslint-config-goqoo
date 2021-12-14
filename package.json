@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-goqoo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/goqoo-on-kintone/eslint-config-goqoo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goqoo-on-kintone/eslint-config-goqoo/issues"
+  },
+  "homepage": "https://github.com/goqoo-on-kintone/eslint-config-goqoo#readme"
+}
