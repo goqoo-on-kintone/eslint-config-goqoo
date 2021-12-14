@@ -24,6 +24,7 @@ module.exports = {
   rules: {
     'no-console': ['error', { allow: ['warn', 'error'] }],
     'no-irregular-whitespace': ['error', { skipTemplates: true }],
+    'no-warning-comments': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-var-requires': 'off',
   },
