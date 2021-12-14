@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/goqoo-on-kintone/eslint-config-goqoo/issues"
   },
-  "homepage": "https://github.com/goqoo-on-kintone/eslint-config-goqoo#readme"
+  "homepage": "https://github.com/goqoo-on-kintone/eslint-config-goqoo#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
 }
