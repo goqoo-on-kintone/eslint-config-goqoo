@@ -17,7 +17,16 @@
     "url": "https://github.com/goqoo-on-kintone/eslint-config-goqoo/issues"
   },
   "homepage": "https://github.com/goqoo-on-kintone/eslint-config-goqoo#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^25.3.0"
+  },
   "devDependencies": {
     "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.4.0"
   }
 }
