@@ -11,7 +11,7 @@ module.exports = {
     // 'jest'
   ],
   extends: [
-    'eslint:recommended',
+    'eslint:all',
     'plugin:@typescript-eslint/recommended',
     // 'plugin:jest/recommended',
     'prettier',
@@ -24,9 +24,6 @@ module.exports = {
   rules: {
     'no-console': ['error', { allow: ['warn', 'error'] }],
     'no-irregular-whitespace': ['error', { skipTemplates: true }],
-    'no-new': 'off',
-    'no-var': 'error',
-    'prefer-const': 'error',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-var-requires': 'off',
   },
