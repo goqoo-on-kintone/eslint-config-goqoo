@@ -19,8 +19,6 @@ module.exports = {
   globals: {
     kintone: true,
     cybozu: true,
-    jibun: true,
-    page: true,
   },
   parserOptions: { ecmaVersion: 2021 },
   rules: {
