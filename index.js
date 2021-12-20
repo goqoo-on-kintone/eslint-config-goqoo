@@ -12,6 +12,7 @@ module.exports = {
     kintone: true,
     cybozu: true,
   },
+  plugins: ['es'],
   parserOptions: { ecmaVersion: 2021 },
   rules: {
     'no-console': ['error', { allow: ['warn', 'error'] }],
@@ -20,5 +21,6 @@ module.exports = {
     'prefer-const': 'error',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-var-requires': 'off',
+    'es/no-dynamic-import': 'error',
   },
 }
