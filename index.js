@@ -15,10 +15,19 @@ module.exports = {
   plugins: ['es'],
   parserOptions: { ecmaVersion: 2021 },
   rules: {
-    'no-console': ['error', { allow: ['warn', 'error'] }],
-    'no-irregular-whitespace': ['error', { skipTemplates: true }],
+    'eqeqeq': ['error', 'always', { null: 'ignore' }],
+    'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
+    'no-irregular-whitespace': [
+      'error',
+      {
+        skipComments: true,
+        skipRegExps: true,
+        skipTemplates: true,
+      },
+    ],
     'no-var': 'error',
     'prefer-const': 'error',
+    'spaced-comment': 'error',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-var-requires': 'off',
     'es/no-dynamic-import': 'error',
