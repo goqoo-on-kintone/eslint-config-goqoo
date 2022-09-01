@@ -30,6 +30,7 @@ module.exports = {
     'spaced-comment': 'error',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/consistent-type-imports': 'error',
     'es/no-dynamic-import': 'error',
   },
 }
